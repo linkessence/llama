@@ -15,6 +15,8 @@ from llama.model import ModelArgs
 from llama.tokenizer import Tokenizer
 from model_local import Transformer
 
+from llama.generation import sample_top_p
+
 Role = Literal["system", "user", "assistant"]
 
 

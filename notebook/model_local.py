@@ -67,7 +67,8 @@ class Attention(nn.Module):
             (
                 args.max_batch_size,
                 args.max_seq_len,
-                self.n_heads
+                self.n_heads,
+                self.head_dim
             )
         ).to(self.device)
 
